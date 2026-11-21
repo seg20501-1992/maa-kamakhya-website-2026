@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ghar Raksha Digital & Home Services — dependable home appliance repair, electrical, plumbing, carpentry, waterproofing and digital marketing services.">
+  <meta name="theme-color" content="#101d2c">
+  <title>Maa Kamakhya Ghar Raksha | Digital & Home Services</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--navy:#101d2c;--navy2:#172b40;--gold:#e8bd62;--cream:#f7f5ef;--ink:#172435;--muted:#667487;--white:#fff;--line:#e7e9ec}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:"DM Sans",sans-serif;color:var(--ink);background:#fff}a{color:inherit;text-decoration:none}.container{width:min(1160px,calc(100% - 40px));margin:auto}
+    .topbar{background:#0b1521;color:#dce4ed;font-size:13px;padding:9px 0}.topbar .container{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.topbar strong{color:var(--gold)}
+    header{position:sticky;top:0;z-index:20;background:rgba(16,29,44,.97);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1)}
+    .nav{height:82px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;color:white;font-family:Manrope,sans-serif;font-weight:800;letter-spacing:.02em}.brand img{width:58px;height:58px;object-fit:cover;object-position:center;border-radius:12px;border:1px solid rgba(232,189,98,.5)}.brand small{display:block;font:600 10px "DM Sans",sans-serif;color:#d7c18e;letter-spacing:.16em;margin-top:3px}
+    .navlinks{display:flex;align-items:center;gap:27px;color:#e3eaf2;font-size:14px}.navlinks a:hover{color:var(--gold)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 20px;border-radius:7px;background:var(--gold);color:#182333;font-weight:700;font-size:14px;border:1px solid var(--gold);transition:.2s}.btn:hover{transform:translateY(-2px);box-shadow:0 8px 22px #0002}.btn-outline{background:transparent;color:white;border-color:#718095}.menu-btn{display:none;background:none;color:white;border:1px solid #506075;border-radius:7px;padding:9px 12px;font-size:20px}
+    .hero{background:radial-gradient(circle at 80% 20%,#28435c 0,transparent 35%),linear-gradient(120deg,#101d2c,#1b3045);color:white;overflow:hidden;position:relative}.hero:after{content:"";position:absolute;width:500px;height:500px;border:1px solid #ffffff12;border-radius:50%;right:-150px;bottom:-300px;box-shadow:0 0 0 55px #ffffff08,0 0 0 110px #ffffff05}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:55px;padding:78px 0 88px;position:relative;z-index:1}.eyebrow{color:var(--gold);font-size:12px;font-weight:800;letter-spacing:.2em;text-transform:uppercase}.hero h1{font:800 clamp(38px,5vw,62px)/1.08 Manrope,sans-serif;margin:17px 0 20px;letter-spacing:-.04em}.hero h1 span{color:var(--gold)}.hero p{max-width:570px;color:#c8d2de;line-height:1.8;font-size:17px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.trustline{display:flex;gap:20px;flex-wrap:wrap;margin-top:34px;color:#d3dce6;font-size:13px}.trustline span:before{content:"✓";color:var(--gold);font-weight:800;margin-right:8px}
+    .hero-art{display:flex;justify-content:center;align-items:center}.hero-art img{width:min(100%,480px);max-height:490px;object-fit:contain;border-radius:18px;filter:drop-shadow(0 24px 35px #0006)}
+    section{padding:82px 0}.section-head{text-align:center;max-width:690px;margin:0 auto 42px}.section-head .eyebrow{color:#b48736}.section-head h2{font:800 clamp(29px,4vw,42px)/1.2 Manrope,sans-serif;margin:12px 0}.section-head p{color:var(--muted);line-height:1.7;margin:0}
+    .services{background:var(--cream)}.service-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:17px}.service-card{background:white;border:1px solid #ece9e1;border-radius:12px;padding:24px 20px;min-height:190px;transition:.2s}.service-card:hover{transform:translateY(-5px);box-shadow:0 16px 35px #15233712;border-color:#e5c77f}.service-icon{width:47px;height:47px;border-radius:12px;background:#fff4d9;color:#8b6420;display:grid;place-items:center;font-size:23px;margin-bottom:17px}.service-card h3{font:700 17px Manrope,sans-serif;margin:0 0 8px}.service-card p{color:var(--muted);font-size:13px;line-height:1.6;margin:0}
+    .about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;align-items:center}.about-panel{background:var(--navy);color:white;border-radius:16px;padding:36px;position:relative;overflow:hidden}.about-panel:after{content:"";position:absolute;width:220px;height:220px;border:1px solid #e8bd6233;border-radius:50%;right:-80px;bottom:-110px;box-shadow:0 0 0 30px #e8bd6209,0 0 0 60px #e8bd6206}.about-panel .mini-logo{width:90px;height:90px;object-fit:cover;border-radius:15px;margin-bottom:24px}.about-panel h3{font:800 26px Manrope,sans-serif;margin:0 0 12px}.about-panel p{color:#c4cfdb;line-height:1.7}.about-copy h2{font:800 clamp(29px,4vw,42px)/1.2 Manrope,sans-serif;margin:12px 0 18px}.about-copy>p{color:var(--muted);line-height:1.8}.checks{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:25px}.checks div{font-weight:600;font-size:14px}.checks span{color:#b48736;margin-right:8px}
+    .process{background:#f8f9fb}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.step{padding:28px;border:1px solid var(--line);border-radius:12px;background:white}.step b{font:800 32px Manrope,sans-serif;color:#d3a64d}.step h3{font:700 18px Manrope,sans-serif;margin:12px 0 8px}.step p{font-size:14px;color:var(--muted);line-height:1.7;margin:0}
+    .cta{padding:0 0 82px;background:#f8f9fb}.cta-box{background:linear-gradient(110deg,#172a3e,#263f57);color:white;border-radius:16px;padding:42px 48px;display:flex;justify-content:space-between;align-items:center;gap:24px}.cta-box h2{font:800 clamp(25px,3vw,34px) Manrope,sans-serif;margin:0 0 9px}.cta-box p{color:#cbd5df;margin:0;line-height:1.6}
+    .contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:50px}.contact-info h2{font:800 38px Manrope,sans-serif;margin:10px 0 15px}.contact-info p{color:var(--muted);line-height:1.7}.contact-item{display:flex;gap:13px;margin-top:22px;align-items:flex-start}.contact-item i{font-style:normal;width:40px;height:40px;background:#fff4d9;border-radius:10px;display:grid;place-items:center}.contact-item strong{display:block;margin-bottom:4px}.contact-item small{color:var(--muted)}.contact-form{background:#f8f9fb;border:1px solid var(--line);border-radius:14px;padding:28px}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{margin-bottom:15px}.field label{display:block;font-size:13px;font-weight:700;margin-bottom:7px}.field input,.field select,.field textarea{width:100%;border:1px solid #dce1e7;border-radius:7px;padding:13px;font:14px "DM Sans",sans-serif;background:white;color:var(--ink)}.field textarea{min-height:105px;resize:vertical}.contact-form button{cursor:pointer;width:100%;font:700 14px "DM Sans",sans-serif}
+    footer{background:#0b1521;color:#c8d2de;padding:34px 0}.footer-row{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}.footer-brand{font:800 17px Manrope,sans-serif;color:white}.footer-brand span{display:block;color:#d6b66f;font:600 10px "DM Sans",sans-serif;letter-spacing:.15em;margin-top:4px}.copyright{font-size:12px;color:#8e9bab}
+    @media(max-width:900px){.navlinks{gap:15px}.service-grid{grid-template-columns:repeat(3,1fr)}.hero-grid{gap:25px}.about-grid{gap:35px}}
+    @media(max-width:700px){.topbar .container{justify-content:center;text-align:center}.nav{height:70px}.brand img{width:48px;height:48px}.menu-btn{display:block}.navlinks{display:none;position:absolute;top:70px;left:0;right:0;background:#101d2c;padding:18px 22px 24px;flex-direction:column;align-items:stretch;border-top:1px solid #ffffff18}.navlinks.open{display:flex}.navlinks .btn{margin-top:5px}.hero-grid{grid-template-columns:1fr;padding:58px 0 62px}.hero-art img{max-height:310px;width:90%}.hero h1{font-size:42px}.hero p{font-size:15px}.service-grid{grid-template-columns:repeat(2,1fr);gap:12px}.service-card{padding:18px 15px;min-height:175px}.about-grid,.contact-grid{grid-template-columns:1fr;gap:32px}section{padding:62px 0}.steps{grid-template-columns:1fr}.cta{padding-bottom:62px}.cta-box{padding:30px 25px;align-items:flex-start;flex-direction:column}.form-row{grid-template-columns:1fr;gap:0}.checks{grid-template-columns:1fr 1fr}}
+    @media(max-width:390px){.service-grid{grid-template-columns:1fr}.hero h1{font-size:36px}.hero-actions .btn{width:100%}}
+  </style>
+</head>
+<body>
+  <div class="topbar"><div class="container"><span><strong>MAA KAMAKHYA GHAR RAKSHA</strong> — Digital & Home Services</span><span>One trusted place for your home service needs</span></div></div>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#home"><img src="assets/ghar-raksha-logo.jpg" alt="Ghar Raksha logo"><span>MAA KAMAKHYA<br>GHAR RAKSHA<small>DIGITAL & HOME SERVICES</small></span></a>
+      <button class="menu-btn" aria-label="Open navigation" onclick="document.querySelector('.navlinks').classList.toggle('open')">☰</button>
+      <nav class="navlinks"><a href="#home">Home</a><a href="#services">Our Services</a><a href="#about">About Us</a><a href="#contact">Contact</a><a class="btn" href="https://wa.me/918927993984?text=Hello%20Maa%20Kamakhya%20Ghar%20Raksha%2C%20I%20need%20a%20service." target="_blank" rel="noopener">WhatsApp Us ↗</a></nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero" id="home"><div class="container hero-grid">
+      <div><div class="eyebrow">Your home. Our responsibility.</div><h1>Complete care for your <span>home</span>.</h1>
+        <p>From appliance repairs to essential home maintenance and digital marketing, Maa Kamakhya Ghar Raksha brings dependable services together in one place.</p>
+        <div class="hero-actions"><a class="btn" href="#contact">Request a Service <span>→</span></a><a class="btn btn-outline" href="#services">Explore Services</a></div>
+        <div class="trustline"><span>Multiple services, one place</span><span>Simple booking</span><span>Customer-first support</span></div>
+      </div>
+      <div class="hero-art"><img src="assets/ghar-raksha-logo.jpg" alt="Ghar Raksha Digital and Home Services emblem"></div>
+    </div></section>
+    <section class="services" id="services"><div class="container">
+      <div class="section-head"><div class="eyebrow">What we do</div><h2>Services for every corner of your home</h2><p>Choose the service you need. Send us a request and our team can follow up with you.</p></div>
+      <div class="service-grid">
+        <article class="service-card"><div class="service-icon">❄</div><h3>AC Service</h3><p>Air conditioner servicing, maintenance and repair support.</p></article>
+        <article class="service-card"><div class="service-icon">▣</div><h3>Refrigerator</h3><p>Help with refrigerator troubleshooting and repair.</p></article>
+        <article class="service-card"><div class="service-icon">◉</div><h3>Washing Machine</h3><p>Washing machine inspection and repair assistance.</p></article>
+        <article class="service-card"><div class="service-icon">▤</div><h3>Television</h3><p>TV service and repair support for your home.</p></article>
+        <article class="service-card"><div class="service-icon">♨</div><h3>Microwave</h3><p>Microwave oven servicing and troubleshooting.</p></article>
+        <article class="service-card"><div class="service-icon">♨</div><h3>Geyser</h3><p>Geyser maintenance and repair assistance.</p></article>
+        <article class="service-card"><div class="service-icon">⌂</div><h3>Chimney</h3><p>Kitchen chimney cleaning and service support.</p></article>
+        <article class="service-card"><div class="service-icon">⚡</div><h3>Electrical</h3><p>Everyday electrical maintenance and repair work.</p></article>
+        <article class="service-card"><div class="service-icon">🛠</div><h3>Carpentry</h3><p>Carpentry and household fitting assistance.</p></article>
+        <article class="service-card"><div class="service-icon">🔧</div><h3>Plumbing</h3><p>Plumbing support for common home needs.</p></article>
+        <article class="service-card"><div class="service-icon">💧</div><h3>Waterproofing</h3><p>Waterproofing solutions for home protection.</p></article>
+        <article class="service-card"><div class="service-icon">◉</div><h3>Digital Marketing</h3><p>Digital marketing support to help businesses grow online.</p></article>
+      </div>
+    </div></section>
+    <section id="about"><div class="container about-grid">
+      <div class="about-panel"><img class="mini-logo" src="assets/ghar-raksha-logo.jpg" alt=""><h3>Maa Kamakhya Ghar Raksha</h3><p>Digital & Home Services</p><p>From everyday appliances to important home repairs, we aim to make getting help straightforward and convenient.</p></div>
+      <div class="about-copy"><div class="eyebrow">About Ghar Raksha</div><h2>Practical help. One easy connection.</h2><p>Maa Kamakhya Ghar Raksha brings a range of digital and home services under one roof. Whether you need help with an appliance, a household repair, waterproofing or digital marketing, start with one simple enquiry.</p><div class="checks"><div><span>✓</span>Service in Asansol, Kulti & Ukhra</div><div><span>✓</span>Pandaveswar, Andal & Durgapur</div><div><span>✓</span>Multiple service categories</div><div><span>✓</span>Easy enquiry process</div><div><span>✓</span>Home-focused solutions</div><div><span>✓</span>Digital service support</div></div></div>
+    </div></section>
+    <section class="process"><div class="container"><div class="section-head"><div class="eyebrow">How it works</div><h2>Getting started is simple</h2><p>Tell us what you need and we’ll have the details to follow up.</p></div>
+      <div class="steps"><div class="step"><b>01</b><h3>Choose your service</h3><p>Browse the service categories and select the help you are looking for.</p></div><div class="step"><b>02</b><h3>Send an enquiry</h3><p>Share your name, contact number and a short description of the issue.</p></div><div class="step"><b>03</b><h3>We’ll connect with you</h3><p>Our team can contact you to discuss the request and next steps.</p></div></div>
+    </div></section>
+    <section class="cta"><div class="container"><div class="cta-box"><div><h2>Need help with your home?</h2><p>Send a service request and tell us what you need.</p></div><a class="btn" href="#contact">Get in Touch →</a></div></div></section>
+    <section id="contact"><div class="container contact-grid">
+      <div class="contact-info"><div class="eyebrow">Contact us</div><h2>Let’s talk about what you need.</h2><p>Fill in the form with your service requirement. Your enquiry will open in WhatsApp, ready to send to our team.</p>
+        <div class="contact-item"><i>☎</i><div><strong>Call / WhatsApp</strong><small><a href="tel:+918927993984">+91 89279 93984</a><br><a href="tel:+919064421803">+91 90644 21803</a></small><div style="margin-top:9px;display:flex;gap:9px;flex-wrap:wrap"><a class="btn" style="padding:8px 11px;font-size:12px" href="https://wa.me/918927993984" target="_blank" rel="noopener">WhatsApp 1</a><a class="btn" style="padding:8px 11px;font-size:12px" href="https://wa.me/919064421803" target="_blank" rel="noopener">WhatsApp 2</a></div></div></div>
+        <div class="contact-item"><i>⌖</i><div><strong>Service areas</strong><small>Asansol · Kulti · Ukhra · Pandaveswar · Andal · Durgapur, West Bengal</small></div></div>
+        <div class="contact-item"><i>✉</i><div><strong>Email</strong><small>Add your business email address here.</small></div></div>
+      </div>
+      <form class="contact-form" id="enquiryForm">
+        <div class="form-row"><div class="field"><label for="name">Your name</label><input id="name" name="name" placeholder="Enter your name" required></div><div class="field"><label for="phone">Phone number</label><input id="phone" name="phone" placeholder="Your contact number" required></div></div>
+        <div class="field"><label for="service">Service required</label><select id="service" name="service" required><option value="">Choose a service</option><option>AC Service</option><option>Refrigerator</option><option>Washing Machine</option><option>Television</option><option>Microwave</option><option>Geyser</option><option>Chimney</option><option>Electrical</option><option>Carpentry</option><option>Plumbing</option><option>Waterproofing</option><option>Digital Marketing</option><option>Other</option></select></div>
+        <div class="field"><label for="message">Tell us a little more</label><textarea id="message" name="message" placeholder="Describe the service you need..."></textarea></div>
+        <button class="btn" type="submit">Prepare Enquiry Message →</button>
+        <p id="formNote" style="font-size:12px;color:#667487;line-height:1.5;margin:12px 0 0">Your enquiry will be prepared in WhatsApp. Choose either of the contact numbers above if you prefer.</p>
+      </form>
+    </div></section>
+  </main>
+  <footer><div class="container footer-row"><div class="footer-brand">MAA KAMAKHYA GHAR RAKSHA<span>DIGITAL & HOME SERVICES</span></div><div class="copyright">© <span id="year"></span> Maa Kamakhya Ghar Raksha. All rights reserved.</div></div></footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('enquiryForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const data = new FormData(this);
+      const body = encodeURIComponent(
+        'Hello Maa Kamakhya Ghar Raksha!\\n\\nName: ' + data.get('name') +
+        '\\nPhone: ' + data.get('phone') +
+        '\\nService: ' + data.get('service') +
+        '\\nDetails: ' + (data.get('message') || 'Not provided')
+      );
+      window.open('https://wa.me/918927993984?text=' + body, '_blank', 'noopener');
+      document.getElementById('formNote').textContent = 'WhatsApp is opening with your enquiry. Please press Send in WhatsApp to submit it.';
+    });
+  </script>
+</body>
+</html>
